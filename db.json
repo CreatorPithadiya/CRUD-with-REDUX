@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "name": "Priyank",
+      "email": "priyank@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Akshay",
+      "email": "akshay@gmail.com"
+    },
+    {
+      "name": "mahimna",
+      "email": "mahimna.mehta@gmil.com",
+      "id": 5
+    },
+    {
+      "name": "Creator",
+      "email": "parthiv@gmail.com",
+      "id": 6
+    }
+  ]
+}
