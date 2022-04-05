@@ -1,7 +1,6 @@
 import { Button, Input, Space } from 'antd'
 import React, { useState ,useEffect} from 'react'
 import { useDispatch ,useSelector} from "react-redux";
-// import { getSinglePost, postAdded, updatePost } from '../_actions/post.actions';
 import { useHistory, useParams } from 'react-router-dom';
 import { getSingleUser, updateUser } from '../Redux/Action';
 
@@ -31,7 +30,7 @@ const handleSubmit = (e) => {
         setError("Please Insert Details!!!")
     } else {
     dispatch(updateUser(values, id));
-    history.push("/");
+    history.push("/all");
     setError("");
     }
     }
