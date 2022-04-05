@@ -9,8 +9,9 @@ export default function Navbar() {
         <>
 
             <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
-                <Menu.Item key={1}><NavLink to="/">All User Post</NavLink></Menu.Item>
-                <Menu.Item key={2}><NavLink to="/add">Add User Post</NavLink></Menu.Item>
+                <Menu.Item key={1}><NavLink to="/">CRUD</NavLink></Menu.Item>
+                <Menu.Item key={2}><NavLink to="/all">All User Post</NavLink></Menu.Item>
+                <Menu.Item key={3}><NavLink to="/add">Add User Post</NavLink></Menu.Item>
             </Menu>
         </>
     )
