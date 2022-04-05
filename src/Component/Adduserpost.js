@@ -34,7 +34,7 @@ const Addup = () => {
 
     const onFinish = (values) => {
         dispatch(addUser(values));
-        navigate('/all');
+        navigate.push('/all');
     };
 
     const handleInputChange = (e) => {
